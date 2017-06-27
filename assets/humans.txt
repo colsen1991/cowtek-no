@@ -1,0 +1,15 @@
+/* TEAM */
+Your title: colsen1991.
+Location: TODO Country, Town.
+Site: https://github.com/colsen1991
+Twitter: TODO Twitter username
+GitHub: colsen1991
+LinkedIn: TODO LinkedIn username
+
+/* THANKS */
+Name: TODO Name, link or email to someone to thank.
+
+/* SITE */
+Last update: TODO Last updated yyyy/mm/dd
+Standards: TODO Standards followed.
+Software: TODO Techs used. I.E. WebStorm, webpack, node.js etc.
