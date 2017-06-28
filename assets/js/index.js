@@ -1,1 +1,1 @@
-// Keep me
+import './menu.js'

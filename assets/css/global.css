@@ -5,16 +5,14 @@
 }
 
 html {
-  font-size: calc(0.5vw + 0.5vh + 13px);
+  font-size: calc(1vw + 0.5vh + 7px);
 }
 
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto;
-  max-width: 55vw;
-  padding: 0 5vw;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5 {
@@ -22,33 +20,107 @@ h1, h2, h3, h4, h5 {
 }
 
 a {
-  color: #FF8C00;
   text-decoration: none;
 }
 
 a:visited {
-  color: #FF8C00;
+  color: #030303;
 }
 
 a:hover,
 a:active {
-  color: #A9A9A9;
+  color: #2F4F4F;
 }
 
-@media (max-width: 800px) {
-  body {
-    max-width: 70vw;
-  }
+#header {
+  display: flex;
+  align-items: center;
+  width: calc(100% - 2em);
+  padding: 1em;
+  position: fixed;
+  background-color: #FFF;
+  z-index: 1;
 }
 
-@media (max-width: 640px) {
-  body {
-    max-width: 85vw;
-  }
+#header * {
+  margin: 0;
+  padding: 0;
 }
 
-@media (max-width: 480px) {
-  body {
-    max-width: 100%;
-  }
+#logo-heading-wrapper {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+#logo-heading-wrapper a {
+  margin-right: 1em;
+}
+
+#logo-heading-wrapper img {
+  height: 6em;
+  width: auto;
+}
+
+#logo-heading-wrapper small {
+  font-size: .6em;
+}
+
+#menu {
+  display: inline-block;
+}
+
+#menu-button {
+  font-size: 3em;
+  background-color: inherit;
+  cursor: pointer;
+  border: none;
+}
+
+#menu-content {
+  position: fixed;
+  right: -100vw;
+  top: 0;
+  height: calc(100vh - 8em);
+  width: 100vw;
+  margin-top: 8em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: transform .15s linear;
+  overflow: hidden;
+}
+
+#menu-content > a {
+  font-size: 2em;
+}
+
+#main {
+  min-height: calc(100vh - 8em - 8em);
+  transition: transform .15s linear;
+  margin-top: 8em;
+  padding: 1em;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: calc(100% - 2em);
+  padding: 1em;
+  height: 6em;
+  transition: transform .15s linear;
+}
+
+#main.hide,
+#footer.hide,
+#menu-content.show {
+  transform: translateX(-100vw);
+}
+
+#main.show,
+#footer.show,
+#menu-content.hide {
+  transform: translateX(0);
 }
