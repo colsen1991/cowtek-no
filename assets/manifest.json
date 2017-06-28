@@ -1,6 +1,5 @@
 {
-    "name": "cowtek-no",
-    "short_name": "cowtek-no",
+    "name": "COWTEK",
     "description": "Homepage for COWTEK.no - A Norwegian web development and tech support company",
     "lang": "en-US",
     "orientation": "any",
@@ -13,8 +12,12 @@
         "sizes": "32x32",
         "type": "image/png"
     },{
-        "src": "/img/android-chrome-144x144.png",
-        "sizes": "144x144",
+        "src": "/img/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    },{
+        "src": "/img/android-chrome-512x512.png",
+        "sizes": "512x512",
         "type": "image/png"
     }
     ],

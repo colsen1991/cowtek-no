@@ -1,15 +1,12 @@
 /* TEAM */
-Your title: colsen1991.
-Location: TODO Country, Town.
+Your title: Christer Olsen.
+Location: Bodø, Norway.
 Site: https://github.com/colsen1991
-Twitter: TODO Twitter username
+Twitter: colsen1991
 GitHub: colsen1991
-LinkedIn: TODO LinkedIn username
-
-/* THANKS */
-Name: TODO Name, link or email to someone to thank.
+LinkedIn: christer-olsen-15845b53
 
 /* SITE */
-Last update: TODO Last updated yyyy/mm/dd
-Standards: TODO Standards followed.
-Software: TODO Techs used. I.E. WebStorm, webpack, node.js etc.
+Last update: 2017/06/28
+Standards: HTML5, CSS3, JavaScript/ECMAScript2015.
+Software: WebStorm, git, GitHub, spike, webpack, NPM, yarn.
