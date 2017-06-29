@@ -43,9 +43,6 @@ input {
 }
 
 input[type=submit] {
-  border: none;
-  padding: calc((2vw + 2vh) / 2);
-  font-size: 1em;
   cursor: pointer;
   background-color: #D3D3D3;
 }
@@ -61,8 +58,11 @@ input[type=submit]:hover {
   width: calc(100% - 2em);
   padding: 1em;
   position: fixed;
+  top: 0;
+  bottom: auto;
   background-color: #FFFFFF;
   z-index: 1;
+  justify-content: space-between;
 }
 
 #header * {
@@ -73,7 +73,6 @@ input[type=submit]:hover {
 #logo-heading-wrapper {
   display: flex;
   align-items: center;
-  flex: 1;
 }
 
 #logo-heading-wrapper img {
@@ -107,7 +106,7 @@ input[type=submit]:hover {
   position: fixed;
   right: -100vw;
   top: 0;
-  height: calc(100vh - 12vh);
+  height: calc(88vh - 2em);
   width: 100vw;
   margin-top: calc(12vh + 2em);
   display: flex;
@@ -123,9 +122,9 @@ input[type=submit]:hover {
 }
 
 #main {
-  min-height: calc(100vh - 8em - 8em);
+  min-height: calc(88vh - 12em);
   transition: transform .15s linear;
-  margin-top: 8em;
+  margin-top: calc(12vh + 2em);
   padding: 1em;
 }
 
