@@ -61,7 +61,7 @@ input[type=submit]:hover {
   width: calc(100% - 2em);
   padding: 1em;
   position: fixed;
-  background-color: #FFF;
+  background-color: #FFFFFF;
   z-index: 1;
 }
 
@@ -76,17 +76,20 @@ input[type=submit]:hover {
   flex: 1;
 }
 
-#logo-heading-wrapper a {
-  margin-right: 1em;
-}
-
 #logo-heading-wrapper img {
   height: 12vh;
+  margin-right: 1em;
   width: auto;
 }
 
+#logo-heading-wrapper h1 {
+  margin-bottom: -.4em;
+}
+
 #logo-heading-wrapper small {
-  font-size: .6em;
+  font-size: .55em;
+  margin-top: -0.5em;
+  text-align: center;
 }
 
 #menu {
