@@ -55,7 +55,7 @@ input[type=submit]:hover {
 #header {
   display: flex;
   align-items: center;
-  width: calc(100% - 2em);
+  width: calc(100vw - 2em);
   padding: 1em;
   position: fixed;
   top: 0;
@@ -89,10 +89,6 @@ input[type=submit]:hover {
   font-size: .55em;
   margin-top: -0.5em;
   text-align: center;
-}
-
-#menu {
-  display: inline-block;
 }
 
 #menu-button {
