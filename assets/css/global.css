@@ -128,10 +128,27 @@ input[type=submit]:hover {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: calc(100% - 2em);
+  width: calc(100vw - 2em);
   padding: 1em;
-  height: 6em;
   transition: transform .15s linear;
+}
+
+#footer > nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer > p {
+  text-align: center;
+}
+
+#footer > div > a {
+  display: inline-block;
+  font-size: 2em;
+  height: 1em;
+  width: 1em;
+  text-align: center;
 }
 
 #main.hide,
