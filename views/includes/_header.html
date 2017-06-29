@@ -1,21 +1,19 @@
-<header role="banner" id="header">
-  <a role="link" href="/" id="logo-heading-wrapper">
-    <img role="img" aria-label="Official logo" src="/img/logo.png">
+<header id="header" role="banner">
+  <a href="/" id="logo-heading-wrapper">
+    <img role="img" aria-label="Official logo" src="/img/logo.png" alt="Official logo">
     <div>
       <h1>COWTEK</h1>
       <small>Christer Olsen Web and Technology</small>
     </div>
   </a>
-  <nav role="navigation">
-    <div role="menu" id="menu">
-      <button id="menu-button" class="fa fa-bars"></button>
-      <div id="menu-content">
-        <a href="/about">About</a>
-        <a href="/web">Web Development</a>
-        <a href="/tech">Tech Support</a>
-        <a href="/activity">Activity</a>
-        <a href="/contact">Contact</a>
-      </div>
-    </div>
-  </nav>
+  <div role="menu">
+    <button id="menu-button" class="fa fa-bars"></button>
+    <nav role="navigation" id="menu-content">
+      <a tabindex="-1" class="nav-link" href="/about">About</a>
+      <a tabindex="-1" class="nav-link" href="/web">Web</a>
+      <a tabindex="-1" class="nav-link" href="/tech-support">Tech Support</a>
+      <a tabindex="-1" class="nav-link" href="/activity">Activity</a>
+      <a tabindex="-1" class="nav-link" href="/contact">Contact</a>
+    </nav>
+  </div>
 </header>
