@@ -1,6 +1,6 @@
 # cowtek.no
 
-Homepage for COWTEK.no - A Norwegian web development and tech support company
+Project is closed. 
 
 ## Setup
 
